@@ -47,6 +47,21 @@ button:hover, form .btn-enviar input:hover{
     transform: scale(1.05);
 }
 
+h2.obg{
+    color: #00ff00;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+
+p.p{
+    color: #ffffff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
 
 /* ESTILO DO CABEÇALHO */
 
@@ -189,7 +204,7 @@ section.topo-do-site .flex{
 
 
 
-.topo-do-site .img-top-site{
+.img-top-site{
     position: relative;
     animation: flutua 2s  ease-in-out infinite alternate;
 }
@@ -202,6 +217,62 @@ section.topo-do-site .flex{
     100%{
         top: 30px;
     }
+}
+
+/* ESTILO OBRIGADO */
+section.obrigado{
+    padding: 20px 4%;
+}
+
+section.obrigado .flex{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.obrigado .txt h1{
+    color: #fff;
+    font-size: 34px;
+    line-height: 20px;
+}
+
+.obrigado .txt h1 span{
+    color: #00ff00;
+}
+
+.obrigado  p{
+    color: #fff;
+    font-size: 20px;
+    margin: 40px 0;
+}
+
+.img{
+    margin: 0 0;
+    font-size: 30px;
+    position: relative;
+    animation: flutua 2s  ease-in-out infinite alternate;
+}
+
+
+@keyframes flutua{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+.obrigado .voltar button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
 }
 
 /* ESTILO ESPECIALIDADE */
