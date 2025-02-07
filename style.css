@@ -277,7 +277,7 @@ section.obrigado .flex{
 
 /* ESTILO ESPECIALIDADE */
 section.especialidade{
-    padding: 40px 4%;
+    padding: 40px 26%;
 }
 
 section.especialidade .flex{
@@ -298,18 +298,15 @@ section.especialidade .flex{
 }
 
 .especialidade .especialidade-box i{
-    font-size: 60px;
+    font-size: 80px;
     color: #00ff00;
 }
 
 .especialidade .especialidade-box h3{
-    font-size: 26px;
-    margin: 15px 0;
+    font-size: 30px;
+    margin: 10px 0;
 }
 
-.especialidade .especialidade-box p{
-    font-size: 15px;
-}
 
 /* ESTILO SOBRE */
 
